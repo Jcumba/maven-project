@@ -1,20 +1,19 @@
 package com.example;
 
 /**
- * This is a class.
+ * Esta es la clase.
  */
 public class Greeter {
 
   /**
-   * This is a constructor.
+   * Este es el constructor.
    */
   public Greeter() {
 
   }
 
     /**
-   * @param someone nombre del parametro
-   * @return retorna el String
+   * Demo
    */
   public final String greet(final String someone) {
     return String.format("Hola, %s!", someone);
